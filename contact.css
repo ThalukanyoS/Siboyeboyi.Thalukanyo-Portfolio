@@ -1,0 +1,79 @@
+*.contact{
+    background-color:rgba(0, 38, 255, 0.537);
+    top:60px;
+    
+}
+.contact{
+    position: relative;
+    height: 57vh;
+    width:100%;
+    padding:10px 0;
+    /*background-color:rgba(132, 0, 255, 0.449);*/
+    grid-template-columns: repeat(auto-fit , minmax(250px, 1fr));
+
+}
+.contact h1.heading{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.contact p.sub-heading{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 0;
+    color: #444;
+
+}
+.contact .contact-card{
+    position: relative;
+    height: 300px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    padding: 15px 0;
+    margin: auto;
+}
+.contact .contact-card .card{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-align: center;
+
+
+}
+/*.experience .experience-card .card i{
+    position: relative;
+    font-size: 4.5rem;
+    color: rgb(0, 26, 255);
+
+    
+}
+*/
+.education .education-card .card h1{
+    position: relative;
+    font-size:1.8rem ;
+    font-weight: 800;
+}
+.education .education-card .card h1 ol{
+    position: relative;
+    font-size: 1rem;
+    color: #444;
+    font-weight: 550;
+}

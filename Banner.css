@@ -1,0 +1,33 @@
+
+.banner{
+    position: relative;
+    height: 127vh;
+    width:100%;
+    /*background:linear-gradient(rgba(1, 0, 0, 0.011),rgba(0,0, 0, 0.5)), url('https://media-exp1.licdn.com/dms/image/C4D03AQH_SH4_XG0daw/profile-displayphoto-shrink_800_800/0/1663522665034?e=1672272000&v=beta&t=ndAjcksIQKr8euBjaBFv3INDbgN6wTGWR1x8K6pvzRQ');*/
+    background-image:linear-gradient(rgba(1, 0, 0, 0.11),rgba(0, 0, 0, 0.755)), url(/src/Images/Mozol.jpg);
+    background-size: cover;
+    background-position:center center; 
+}
+.banner .banner-info{
+    position:absolute;
+    top:7%;
+    transform: transalateY(-50%);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.banner .banner-info h1{
+    position: relative;
+    font-size: 2.9rem;
+    color: honeydew;
+    font-family: sans-serif;
+}
+.banner .banner-info p.about{
+    /*color:antiquewhite; */
+    color: rgb(220, 224, 245);
+    font-size: 0.9rem;
+    font-family:sans-serif;
+
+
+}
